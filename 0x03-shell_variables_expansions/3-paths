@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(('echo $PAATH grep -o ":/" | wc -l '+1))
